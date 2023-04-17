@@ -70,8 +70,8 @@ passport.use(new LocalStrategy({
                     }
                 });
             })
-    } catch (error) {        
-        return done(err);
+    } catch (error) {
+        return done(null);
     }
 }));
 
